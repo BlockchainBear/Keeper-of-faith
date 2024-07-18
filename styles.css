@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     color: #f0f0f0;
-    background-color: #1e1e1e;
+    background-color: #121212;
     scroll-behavior: smooth;
 }
 
 header {
-    background-color: #2c2c2c;
+    background-color: #1c1c1c;
     color: #f0f0f0;
     padding: 1rem 0;
     position: fixed;
@@ -72,6 +72,7 @@ header nav ul li a:hover {
 
 section {
     padding: 3rem 0;
+    background-color: #181818;
 }
 
 section .container {
@@ -92,14 +93,14 @@ ul {
 }
 
 ul li {
-    background-color: #333;
+    background-color: #242424;
     padding: 1rem;
     margin-bottom: 0.5rem;
     border-radius: 5px;
 }
 
 .feature-card {
-    background-color: #2c2c2c;
+    background-color: #1c1c1c;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     margin: 1rem 0;
@@ -136,7 +137,7 @@ ul li {
 }
 
 footer {
-    background: #2c2c2c;
+    background: #1c1c1c;
     color: #f0f0f0;
     text-align: center;
     padding: 2rem 0;
