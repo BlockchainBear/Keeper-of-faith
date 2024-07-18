@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keeper of Faith Token (KF)</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#tokenomics">Tokenomics</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                    <li><a href="#community">Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div id="3d-object"></div>
+            <h2>Welcome to Keeper of Faith Token (KF)</h2>
+            <p>Empowering community engagement and promoting social capital through blockchain technology.</p>
+            <a href="#about" class="cta">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Keeper of Faith</h2>
+            <p>The Keeper of Faith (KF) Token is a community-centric cryptocurrency designed to enhance social capital through exclusive VIP access and promotion within the community. By leveraging blockchain technology, KF aims to create a thriving ecosystem where users are incentivized to actively participate, engage, and promote the community, thereby unlocking unique benefits and privileges.</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature-card">
+                <h3>VIP Access</h3>
+                <p>Exclusive events, content, and benefits for KF token holders.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Promotion and Engagement</h3>
+                <p>Earn KF tokens by promoting community activities.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Decentralized Governance</h3>
+                <p>Participate in governance decisions through a DAO.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Secure Transactions</h3>
+                <p>Fast, secure, and low-cost transactions on the Solana blockchain.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Incentives and Rewards</h3>
+                <p>Incentives for community engagement and growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tokenomics">
+        <div class="container">
+            <h2>Tokenomics</h2>
+            <p><strong>Total Supply:</strong> 1,000,000,000 KF</p>
+            <ul>
+                <li><strong>Community Rewards and Incentives:</strong> 50% (500,000,000 KF)</li>
+                <li><strong>Development and Operations:</strong> 20% (200,000,000 KF)</li>
+                <li><strong>Staking Rewards:</strong> 15% (150,000,000 KF)</li>
+                <li><strong>Marketing and Partnerships:</strong> 10% (100,000,000 KF)</li>
+                <li><strong>Reserve:</strong> 5% (50,000,000 KF)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="roadmap">
+        <div class="container">
+            <h2>Roadmap</h2>
+            <ul>
+                <li><strong>Q3 2024:</strong> Launch of Keeper of Faith Token and initial distribution.</li>
+                <li><strong>Q4 2024:</strong> Deployment of VIP access features and DAO governance structure.</li>
+                <li><strong>Q1 2025:</strong> Integration with community platforms and reward mechanisms.</li>
+                <li><strong>Q2 2025:</strong> Expansion of partnerships and marketing campaigns to grow the community.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="community">
+        <div class="container">
+            <h2>Join Our Community</h2>
+            <p>Stay connected and join the conversation on our community platforms.</p>
+            <ul>
+                <li><a href="http://discord.gg/keeperoffaith" target="_blank">Discord</a></li>
+                <li><a href="http://twitter.com/keeperoffaith" target="_blank">Twitter</a></li>
+                <li><a href="http://keeperoffaith.io" target="_blank">Website</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Keeper of Faith. All rights reserved.</p>
+            <p><a href="mailto:info@keeperoffaith.io">Contact Us</a></p>
+            <p><a href="#legal">Legal Disclaimer</a></p>
+        </div>
+    </footer>
+</body>
+</html>
