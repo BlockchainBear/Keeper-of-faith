@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #111111;
+    color: #f0f0f0;
+    background-color: #1e1e1e;
     scroll-behavior: smooth;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #2c2c2c;
+    color: #f0f0f0;
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -38,7 +38,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: #f0f0f0;
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s;
@@ -50,7 +50,7 @@ header nav ul li a:hover {
 
 #hero {
     background: url('hero-bg.jpg') no-repeat center center/cover;
-    color: white;
+    color: #f0f0f0;
     text-align: center;
     padding: 10rem 0;
     margin-top: 80px; /* To offset the fixed header */
@@ -58,7 +58,7 @@ header nav ul li a:hover {
 
 #hero .cta {
     background-color: #ffcc00;
-    color: black;
+    color: #1e1e1e;
     padding: 0.5rem 1rem;
     text-decoration: none;
     margin-top: 1rem;
@@ -83,6 +83,7 @@ section .container {
 h2 {
     text-align: center;
     margin-bottom: 2rem;
+    color: #ffcc00;
 }
 
 ul {
@@ -91,50 +92,24 @@ ul {
 }
 
 ul li {
-    background-color: #eee;
+    background-color: #333;
     padding: 1rem;
     margin-bottom: 0.5rem;
     border-radius: 5px;
 }
 
 .feature-card {
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #2c2c2c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     margin: 1rem 0;
     border-radius: 5px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-
 .feature-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-#about, #features, #tokenomics, #roadmap, #community {
-    padding: 4rem 1rem;
-    background: #f1f1f1;
-}
-
-#about {
-    background: #e2e2e2;
-}
-
-#features {
-    background: #d3d3d3;
-}
-
-#tokenomics {
-    background: #c4c4c4;
-}
-
-#roadmap {
-    background: #b5b5b5;
-}
-
-#community {
-    background: #a6a6a6;
 }
 
 #community ul {
@@ -148,8 +123,8 @@ ul li {
 }
 
 #community ul li a {
-    background: #333;
-    color: white;
+    background: #ffcc00;
+    color: #1e1e1e;
     padding: 1rem 2rem;
     border-radius: 5px;
     text-decoration: none;
@@ -157,12 +132,12 @@ ul li {
 }
 
 #community ul li a:hover {
-    background: #555;
+    background: #e6b800;
 }
 
 footer {
-    background: #333;
-    color: white;
+    background: #2c2c2c;
+    color: #f0f0f0;
     text-align: center;
     padding: 2rem 0;
     position: relative;
@@ -170,13 +145,30 @@ footer {
     width: 100%;
 }
 
-#logo, #3d-object {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
-}
+/* Responsive design */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 
-#3d-object canvas {
-    display: block;
-    margin: 0 auto;
+    header nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    #hero, section, footer {
+        padding: 2rem 1rem;
+    }
+
+    .feature-card {
+        margin: 1rem 0;
+    }
+
+    #community ul {
+        flex-direction: column;
+    }
+
+    #community ul li {
+        margin: 1rem 0;
+    }
 }
