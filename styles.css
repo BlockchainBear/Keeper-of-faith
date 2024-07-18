@@ -26,6 +26,11 @@ header .container {
     padding: 0 1rem;
 }
 
+header #logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 header nav ul {
     list-style: none;
     margin: 0;
@@ -42,6 +47,7 @@ header nav ul li a {
     text-decoration: none;
     padding: 0.5rem 1rem;
     transition: background-color 0.3s;
+    border-radius: 5px;
 }
 
 header nav ul li a:hover {
@@ -64,6 +70,7 @@ header nav ul li a:hover {
     margin-top: 1rem;
     display: inline-block;
     transition: background-color 0.3s;
+    border-radius: 5px;
 }
 
 #hero .cta:hover {
